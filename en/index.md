@@ -14,7 +14,7 @@ Write a program that shows the following graph.
 
 * Indicate the minimum of the graph by using a red dot and a text within the graph.
 
-* Use `print` to also display the minimum as text in the terminal, in addition to the text in the graph. The minimum should be printed in the format: `(xmin, ymin) = (0.27, 0.69)`. 
+* Use `print` to also display the minimum as text in the terminal, in addition to the text in the graph. The minimum should be printed in the format: `(xmin, ymin) = (0.27, 0.69)`.
 
 ## Hints
 
@@ -40,12 +40,12 @@ Write a program that shows the following graph.
 		matplotlib.use('tkagg')
 		import matplotlib.pyplot as plt
 
-* Also remember that `^` in Python does not result in exponentiation. Use `**` to correctly calculate a number raised to a power. 
+* Also remember that `^` in Python does not result in exponentiation. Use `**` to correctly calculate a number raised to a power.
 
 * Can't seem to get the plotting to function properly? Send us a mail!
 
 ## Testing
 
-Testing for this assignment is somewhat more difficult, because checkpy cannot judge whether your graph complies with the specification. Whether it is correct or not is for you to determine. Checkpy can test if you've created a graph at all.
+Testing for this assignment is somewhat more difficult, because checkpy cannot judge whether your graph complies with the specification. Whether it is correct or not is for you to determine. Checkpy can, however, test if you've created a graph at all.
 
     checkpy plot
