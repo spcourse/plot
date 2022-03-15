@@ -22,6 +22,8 @@ Write a program that shows the following graph.
 
 * Closely examine [the examples](/python/en/plotting).
 
+* Getting the x coordinate of the minimum without using `min()` can only be done by getting the index of the y-value that is the lowest! It should be easier to get this index with a for-loop that iterates over indexes (`for i in range(...):`) than by using a for-loop that iterates over items ('for y in y_values:`).
+
 * When using external libraries it can be very useful to make proper use of Google. Want to know how a certain feature can be achieved in pyplot? Google it! Tip: use the word "example" in your search query.
 
 * To use `matplotlib` you have to import it at the top of your program:
