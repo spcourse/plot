@@ -32,16 +32,10 @@ Write a program that shows the following graph.
 
 		import matplotlib.pyplot as plt
 
-* To use `matplotlib` in the online IDE, you'll need a few extra lines of code:
+* **Note:** To use `matplotlib` in the **online IDE** (in your browser), you'll need a few extra lines of code:
 
 		import matplotlib
 		matplotlib.use('Agg')
-		import matplotlib.pyplot as plt
-
-* Are you using Windows and presented with errors during plotting? Try this:
-
-		import matplotlib
-		matplotlib.use('tkagg')
 		import matplotlib.pyplot as plt
 
 * Also remember that `^` in Python does not result in exponentiation. Use `**` to correctly calculate a number raised to a power.
