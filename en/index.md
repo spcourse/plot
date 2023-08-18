@@ -6,7 +6,7 @@ Write a program that shows the following graph.
 
 ## Specification
 
-* Create a file called `plot.py` and implement a program that plots a graph of the function $$f(x) = y = 12.38 \cdot x^4 - 84.38 \cdot x^3 + 165.19 \cdot x^2 - 103.05 * x$$ between $$x=0$$ and $$x=4$$ with steps of $$0.01$$. Use a blue line for this graph.
+* Create a file called `plot.py` and implement a program that plots a graph of the function $$f(x) = y = 12.38 \cdot x^4 - 84.38 \cdot x^3 + 165.19 \cdot x^2 - 103.05 \cdot x$$ between $$x=0$$ and $$x=4$$ with steps of $$0.01$$. Use a blue line for this graph.
 
 * The minimum of the function has to be calculated. Since you have a list of x-values and a list of y-values, you can easily achieve this with a `for`-loop. Write your own algorithm without using the Python functions `min()` or `max()`.
 
