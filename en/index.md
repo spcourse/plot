@@ -12,11 +12,17 @@ Write a program that shows the following graph.
 
 * The minimum of the function has to be calculated. Since you have a list of x-values and a list of y-values, you can easily achieve this with a `for`-loop. Write your own algorithm without using the Python functions `min()` or `max()`.
 
-* You can use the math library and, of course, matplotlib.
-
 * Indicate the minimum of the graph by using a red dot and a text within the graph.
 
 * Use `print` to also display the minimum as text in the terminal, in addition to the text in the graph. The minimum should be printed in the format: `(xmin, ymin) = (3.26, -105.53)`.
+
+## Constraints
+
+* You can import the math library and, of course, matplotlib.
+
+* You **cannot** import any other library.
+
+* You cannot use `.index()` to find the index of a value in a list.
 
 ## Hints
 
@@ -32,12 +38,6 @@ Write a program that shows the following graph.
 
 * To use `matplotlib` you have to import it at the top of your program:
 
-		import matplotlib.pyplot as plt
-
-* **Note:** To use `matplotlib` in the **online IDE** (in your browser), you'll need a few extra lines of code:
-
-		import matplotlib
-		matplotlib.use('Agg')
 		import matplotlib.pyplot as plt
 
 * Also remember that `^` in Python does not result in exponentiation. Use `**` to correctly calculate a number raised to a power.
