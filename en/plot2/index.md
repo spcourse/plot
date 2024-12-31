@@ -22,6 +22,4 @@ Write a program called `plot2.py` that improves on `plot1.py` by finding and sho
 
 ## Testing
 
-Testing for this assignment is somewhat more difficult, because checkpy cannot judge whether your graph complies with the specification. Whether it is correct or not is for you to determine. Checkpy can, however, test if you've created a graph at all.
-
-    checkpy plot2
+There is no checkpy for this assignment.
