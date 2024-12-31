@@ -1,4 +1,4 @@
-# Plot
+# Plot Min
 
 Write a program that shows the following graph.
 
