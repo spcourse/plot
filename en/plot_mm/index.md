@@ -1,4 +1,4 @@
-# Plot Min
+# Plot Min Max
 
 Write a program called `plot_mm.py` that improves on `plot2.py` by finding all local minima and maxima. (A local minimum is a point in th function such that the closest values on both sides of that point are higher.)
 

@@ -1,4 +1,4 @@
-# Plot Min
+# Plot Minimum
 
 Write a program called `plot2.py` that improves on `plot1.py` by finding and showing the minimum value of the function, like this:
 

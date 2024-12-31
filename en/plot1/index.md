@@ -1,4 +1,4 @@
-# Plot Min
+# Plot
 
 Write a program called `plot1.py` that shows the following graph:
 
